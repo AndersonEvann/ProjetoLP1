@@ -36,7 +36,7 @@ petfera: $(OBJ_DIR)/main.o $(OBJ_DIR)/petfera.o $(OBJ_DIR)/animal.o $(OBJ_DIR)/a
 	@echo "Ligando o alvo $@"
 	@echo "============="
 	$(CC) $(CPPFLAGS) -o $(BIN_DIR)/$@ $^
-	@echo "+++ [Executavel questao01 criado em $(BIN_DIR)] +++"
+	@echo "+++ [Executavel petfera criado em $(BIN_DIR)] +++"
 	@echo "============="
 
 $(OBJ_DIR)/main.o: $(SRC_DIR)/main.cpp

@@ -18,8 +18,8 @@ int main(int argc, char const *argv[])
 	//instanciando um petshop
 	Petfera petfera("PetFera");
 
-	//@TODO ler dados do cadastro
-	//petfera.carregarDados();
+	//ler dados do cadastro.
+	petfera.carregarDados();
 
 	//menu
 	petfera.menuPrincipal();
