@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
 	Petfera petfera("PetFera");
 
 	//@TODO ler dados do cadastro
-	//petfera.carregarDados();
+	petfera.carregarDados();
 
 	//menu
 	petfera.menuPrincipal();

@@ -140,10 +140,10 @@ void Petfera::menuDeEscolha(char opcao) { // @TODO Implementar as outras opçõe
 	switch(opcao) {
 		case '0':
 			break; // Opcao de sair.
-		case '1':
+		case '1': //Opcao cadastrar animal.
 			this->infoEntradaAnimal();
 			break;
-		case '2': // Opcao cadastrar animal
+		case '2': // Opcao remover animal.
 			{
 				int id;
 				std::cout << ">> Digite o identificador do animal:" << std::endl;
@@ -208,7 +208,10 @@ void Petfera::infoEntradaAnimal() {
 	//=== Parte principal da função
 
 	//Pegando as informações comuns aos animais
-	int id = ++this->idAnimal; //Atribui um id automaticamente
+	int id;
+	cout << "Informe o id do aniaml." << endl;
+	cin >> id;
+
 	string classe = anfibio ? "Amphibia" : reptil ? "Reptilia" : ave ? "Aves" : mamifero ? "Mammalia" : "";
 	
 	string nome;
