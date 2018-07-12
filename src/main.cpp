@@ -18,11 +18,7 @@ int main(int argc, char const *argv[])
 	//instanciando um petshop
 	Petfera petfera("PetFera");
 
-<<<<<<< HEAD
 	//ler dados do cadastro.
-=======
-	//@TODO ler dados do cadastro
->>>>>>> 39de400a8c5020515428af826a69a7323d121c51
 	petfera.carregarDados();
 
 	//menu
